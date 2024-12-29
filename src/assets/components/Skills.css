@@ -1,0 +1,46 @@
+.con{
+    min-height:50vh;
+}
+.img{
+    height: 80px;
+    width: 80px;
+    display: flex;
+}
+.ulist{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin-top: 25px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list a {
+    color: white;
+    text-decoration: none;
+}
+.boot{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  position: absolute;
+}
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.download{
+    background-color: white;
+    text-decoration: none;
+}
+#skills,#resume-div{
+    min-height: 50vh;
+    border: 1px solid #a77cf0;
+}

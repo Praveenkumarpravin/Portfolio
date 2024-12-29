@@ -1,0 +1,24 @@
+
+#achievements{
+    min-height: 100vh;
+    border: 1px solid #a77cf0;
+}
+dt{
+    font-size: 20px;
+}
+dt,dd{
+    padding:0px 10px;
+}
+dd{
+    font-size: 18px;
+    font-weight: 490;
+    word-spacing: 1px;
+}
+dd::first-letter{
+    padding-left: 20px;
+}
+.projects,.certificates{
+    font-size: 30px;
+    font-weight: 500;
+}
+/* .certificates */

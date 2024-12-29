@@ -1,0 +1,48 @@
+.profile{
+    height:50px;
+    width: 50px;
+}
+.brand{
+    font-size: 40px !important;
+    font-weight: 500;
+}
+.nav-item{
+    padding-top: 20 px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #ffff;
+    position: relative;
+    cursor: pointer;
+}
+.nav-item::before{
+    content: " ";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.5s ease;
+}
+.nav-item:hover::before{
+    width: 90%;
+    transform: translateX(0);
+    opacity: 1;
+}
+.navs{
+   background-color: rgba(0, 0, 0, 0.3) !important;
+   backdrop-filter: blur(60px);
+   position: sticky !important;
+   top: 0;
+}
+.nav-item:hover{
+    text-shadow: 0px 0px 20px tomato;
+    color: tomato !important;
+    transition: all 0.5s ease;
+}
+.nav-link.active{
+    color: tomato !important;
+}

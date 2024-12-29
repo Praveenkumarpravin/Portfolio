@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #04041b;
+        }
+        .main:hover{
+            background-color: tomato;
+            /* min-height: 200px;
+            min-width: 200px; */
+            border-radius: 100px;
+            transition: all 5s ease;
+        }
+      .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #04041b;
+        height: 100vh;
+        transition: all 5s ease;
+      }
+      .contents{
+        /* border: 1px solid #f84bfb; */
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        position: relative;
+      }
+      h3{
+        text-transform: uppercase;
+        color: white;
+      }
+      p{
+        max-width: 500px;
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom: 15px;
+      }
+      .btn{
+        border: none;
+        background-color: tomato;
+        color: white;
+        border-radius: 5px;
+        padding: 10px 15px;
+        font-size:15px;
+        position: relative;
+        bottom: 25px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      .btn:hover{
+        box-shadow: 0px 0px 20px tomato;
+        transition: all 0.3s ease-in-out;
+      }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="contents">
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <p>Lorem ipsum dolor sit quam culpa quas Lorem ipsum dolor sit Lorem ipsum dolor Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="contents">
+            <button type="submit" class="btn">Button</button>
+        </div>
+    </div>
+</body>
+</html>

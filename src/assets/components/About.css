@@ -1,0 +1,33 @@
+.mainc{
+    min-height: 50vh;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid #a77cf0;
+}
+.row{
+    gap:5px ;
+    padding-bottom: 20px;
+    display: flex;
+    align-self: center;
+    justify-content: space-evenly;
+}
+table,th,td,tr{
+    padding: 5px;
+}
+td{
+    font-size: 20px;
+    overflow: unset;
+}
+tr>td:nth-child(odd){
+    font-weight: 600;
+}
+tr>td:nth-child(even)::before{
+    content: ": ";
+    position: relative;
+    right: 5px;
+    z-index:auto;
+}
+.des{
+    /* background: rgba(79, 34, 138, 0.5) !important; */
+    background-color: #7f4ed45d;
+    border: 1px solid #a77cf0;
+}
